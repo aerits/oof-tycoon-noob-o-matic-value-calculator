@@ -18,7 +18,7 @@ noobOMatic (int noobprice, int noobs1, int noobs2, int price)
 	}
       percent += 1;
     }
-  cout <<"chance of gaining money: " << percent / ((noobs2 - noobs1) + 1) << endl;
+  cout << "chance of gaining money: " << percent / ((noobs2 - noobs1) + 1) << endl;
   return 1;
 }
 
