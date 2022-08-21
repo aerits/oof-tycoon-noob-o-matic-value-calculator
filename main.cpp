@@ -25,7 +25,6 @@ noobOMatic (int noobprice, int noobs1, int noobs2, int price)
 int
 main ()
 {
-  int noob = 0;
   cout << "normal" << endl;
   noobOMatic (810, 1, 5, 2430);
   cout << "rare" << endl;
