@@ -9,7 +9,7 @@ noobOMatic (int noobprice, int noobs1, int noobs2, int price)
   float percent = 0;
   for (int i = noobs1 - 1; i < noobs2; i++)
     {
-      noob += noobprice + 18 * i;
+      noob += noobprice + 20 * i;
       cout <<"price of "<< i + 1 << " noobs: " << price - noob << endl;
       if (price - noob > 0)
 	{
@@ -25,11 +25,12 @@ noobOMatic (int noobprice, int noobs1, int noobs2, int price)
 int
 main ()
 {
+  int noob=3920;
   cout << "normal" << endl;
-  noobOMatic (810, 1, 5, 2430);
+  noobOMatic (noob, 1, 5, 11000);
   cout << "rare" << endl;
-  noobOMatic (846, 2, 10, 5070);
+  noobOMatic (noob, 2, 10, 23000);
   cout << "epic" << endl;
-  noobOMatic (846, 3, 25, 12900);
+  noobOMatic (noob, 3, 25, 59000);
   return 0;
 }
