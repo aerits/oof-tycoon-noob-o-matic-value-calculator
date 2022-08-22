@@ -11,7 +11,7 @@
       "stopAtEntry": false,
       "cwd": "/workspace/oof-tycoon-noob-o-matic-value-calculator",
       "environment": [],
-      "program": "/workspace/oof-tycoon-noob-o-matic-value-calculator/build/Release/outRelease",
+      "program": "/workspace/oof-tycoon-noob-o-matic-value-calculator/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
